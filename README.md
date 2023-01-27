@@ -5,6 +5,8 @@ Simple soundpad tool for Twitch made with PHP
 # Installation
 
 Just upload it to your PHP webserver (7.4+) and make sure your uploads folder is writable.
+It can be easily integrated with OBS as a Browser Dock via `Docks > Custom Browser Docks` menu. It also beeps when someone gets in/out.
+If you don't know how to add a Custom Browser Dock, [check out this video](https://youtu.be/ItFeV8TimxE?t=82).
 
 # Parameters
 
