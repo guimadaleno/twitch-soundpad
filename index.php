@@ -203,7 +203,7 @@ endif;
 				display: table;
 				background-color: rgba(255,255,255,0.1);
 				width: 100%;
-				margin-bottom: 1px;
+				margin-bottom: 2px;
 				transition: all 0.2s;
 			}
 
@@ -263,9 +263,18 @@ endif;
 					font-size: 0; 
 					line-height: 0;
 					width: <?=round((100 / $total_columns), 2)?>%;
-					padding: 1px;
 					box-sizing: border-box;  
 				}
+
+					.buttons > .button-holder:nth-child(odd)
+					{
+						padding-right: 2px;
+					}
+
+					.buttons > .button-holder
+					{
+						padding-bottom: 2px;
+					}
 
 					.buttons > .button-holder > button
 					{
