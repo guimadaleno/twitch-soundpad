@@ -1,6 +1,6 @@
 # Twitch Soundpad
 
-Simple soundpad tool for Twitch made with PHP
+Simple SFX audio player built with JavaScript and PHP.
 
 # Installation
 
