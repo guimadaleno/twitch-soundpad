@@ -39,6 +39,10 @@ $text_color = (!empty($_GET['text_color']))
 	? substr($_GET['text_color'], 0, 6) 
 	: "ffffff";
 
+$button_color = (!empty($_GET['button_color'])) 
+	? substr($_GET['button_color'], 0, 6) 
+	: "3c404b";
+
 # Functions
 # ----------------------------------------------------------------------------------------------------
 
@@ -271,7 +275,7 @@ endif;
 						font-family: Arial;
 						font-size: 12px;
 						line-height: 14px;
-						background-color: #666666;
+						background-color: #3c404b;
 						color: white;
 						border: none;
 						margin: 0;
@@ -283,7 +287,7 @@ endif;
 
 						.buttons > .button-holder > button.active
 						{
-							background-color: #815fc0;
+							background-color: #<?=$button_color?>;
 						}
 
 						.buttons > .button-holder > button:active
