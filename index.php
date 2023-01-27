@@ -23,11 +23,11 @@ const max_upload_fize = 52428800;
 # Parameters
 # ----------------------------------------------------------------------------------------------------
 
-$total_buttons = (!empty($_GET['total_buttons']))
+$total_buttons = (!empty($_GET['total_buttons']) and $_GET['total_buttons'] <= 129)
 	? substr(intval($_GET['total_buttons']), 0, 11)
 	: 48;
 
-$total_columns = (!empty($_GET['total_columns']))
+$total_columns = (!empty($_GET['total_columns']) and $_GET['total_columns'] <= 6)
 	? substr(intval($_GET['total_columns']), 0, 11)
 	: 3;
 
@@ -35,8 +35,8 @@ $bg_color = (!empty($_GET['bg_color']))
 	? substr($_GET['bg_color'], 0, 6) 
 	: "2c2e38";
 
-$text_color = (!empty($_GET['text'])) 
-	? substr($_GET['text'], 0, 6) 
+$text_color = (!empty($_GET['text_color'])) 
+	? substr($_GET['text_color'], 0, 6) 
 	: "ffffff";
 
 # Functions
