@@ -12,8 +12,8 @@ If you don't know how to add a Custom Browser Dock, [check out this video](https
 
 You can easily customize the sound pad appearance and number of buttons. Just pass these parameters via URL:
 
-- `total_buttons` - Customize the number of buttons (max: 128, default: 48)
-- `total_columns` - Customize the number of columns (max: 6, default: 3)
+- `buttons` - Customize the number of buttons (max: 128, default: 48)
+- `columns` - Customize the number of columns (max: 6, default: 3)
 - `bg_color` - Change the background color to match your OBS UI (default: #2c2e38)
 - `text_color` - Change the text color to match your OBS UI (default: #ffffff)
 - `button_color` - Change the button background color to match your OBS UI (default: #3c404b)
