@@ -24,4 +24,4 @@ You can easily customize the sound pad appearance and number of buttons. Just pa
 
 ## Safety
 
-This is a simple tool intended to be used by a single streamer. This tool is not safe for production environments, as it stores data in the server. 
+This is a simple tool intended to be used by a single streamer. This tool is not safe for public/production environments, as it stores data in the server. 
