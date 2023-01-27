@@ -275,7 +275,7 @@ endif;
 						font-family: Arial;
 						font-size: 12px;
 						line-height: 14px;
-						background-color: #3c404b;
+						background-color: #<?=$button_color?>;
 						color: white;
 						border: none;
 						margin: 0;
@@ -287,7 +287,7 @@ endif;
 
 						.buttons > .button-holder > button.active
 						{
-							background-color: #<?=$button_color?>;
+							background-color: #6441a5;
 						}
 
 						.buttons > .button-holder > button:active
