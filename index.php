@@ -22,7 +22,7 @@ const max_upload_fize = 52428800;
 
 $total_buttons = (!empty($_GET['buttons']) and $_GET['buttons'] <= 129)
 	? substr(intval($_GET['buttons']), 0, 3)
-	: 48;
+	: 96;
 
 $total_columns = (!empty($_GET['columns']) and $_GET['columns'] <= 6)
 	? substr(intval($_GET['columns']), 0, 1)
